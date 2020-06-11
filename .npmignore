@@ -1,0 +1,32 @@
+#tests
+test
+coverage
+
+#build tools
+.travis.yml
+.jenkins.yml
+.codeclimate.yml
+
+#linters
+.jscsrc
+.jshintrc
+.eslintrc*
+
+#editor settings
+.idea
+.editorconfig
+#.gitignore help
+node_modules
+*.log*
+.DS_Store
+lib/
+*.ls
+*.tgz
+*.swp
+*~
+\#*\#
+.\#*
+*.swo
+#project stuff
+gulpfile.js
+test.js

@@ -1,0 +1,21 @@
+{
+  "name": "logx",
+  "version": "1.0.0",
+  "description": "A nice pretty logger",
+  "main": "logx.js",
+  "author": "Atlas Cove",
+  "license": "LGPL-3.0-or-later",
+  "private": false,
+  "scripts": {
+    "build": "gulp build"
+  },
+  "dependencies": {
+    "ansi-colors": "^4.1.1"
+  },
+  "devDependencies": {
+    "delete": "^1.1.0",
+    "gulp": "^4.0.2",
+    "gulp-livescript": "^3.0.1",
+    "livescript": "^1.6.0"
+  }
+}
