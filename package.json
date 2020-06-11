@@ -1,5 +1,5 @@
 {
-  "name": "logx",
+  "name": "logx-js",
   "version": "1.0.0",
   "description": "A nice pretty logger",
   "main": "logx.js",
