@@ -1,4 +1,7 @@
 # logx
+
+**THIS PACKAGE HAS BEEN RENAMED TO [ampelstatus](ampelstatus)*
+
 Simple, pretty, traffic-light logger
 
 logx is an incredably lightweight traffic-light pattern logger, only a single, 7-element object in memory
