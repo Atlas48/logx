@@ -1,5 +1,5 @@
 {
-  "name": "logx-js",
+  "name": "ampelog",
   "version": "2.0.0",
   "description": "A nice pretty logger",
   "main": "logx.js",

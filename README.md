@@ -1,4 +1,7 @@
-# logx
+# ampelog
+
+formerly known as *logx-js*.
+
 Simple, pretty, traffic-light logger
 
 logx is an incredably lightweight traffic-light pattern logger, only a single, 7-element object in memory.
