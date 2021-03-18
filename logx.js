@@ -1,27 +1,15 @@
-var c = require('ansi-colors');
-module.exports.prefix = {
-  wrn: c.bold.yellow('WRN') + ':',
-  err: c.bold.red('ERR') + ':',
-  inf: c.bold.green('INF') + ':'
+var c = require('ampelstatus');
+explort function inf(out, b){
+  if (b) process.stdout.write(ast.wrn+out);
+  else process.stderr.write(ast.wrn+out);
 };
-module.exports.wrn = function(out, b){
-  if (b) {
-    process.stdout.write(module.exports.prefix.wrn + " " + out);
-  } else {
-    process.stderr.write(module.exports.prefix.wrn + " " + out);
-  }
+export function err(out, b){
+  if (b) process.stdout.write(ast.err+out);
+  else process.stderr.write(err+out);
 };
-module.exports.err = function(out, b){
-  if (b) {
-    process.stdout.write(module.exports.prefix.err + " " + out);
-  } else {
-    process.stderr.write(module.exports.prefix.err + " " + out);
-  }
+export function inf(out, b){
+  if (b) process.stdout.write(ast.inf+out);
+  else process.stderr.write(ast.inf+out);
 };
-module.exports.inf = function(out, b){
-  if (b) {
-    process.stdout.write(module.exports.prefix.inf + " " + out);
-  } else {
-    process.stderr.write(module.exports.prefix.inf + " " + out);
-  }
-};
+var all={inf:inf,err:err,inf:inf{
+export defualt all;

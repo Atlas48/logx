@@ -1,16 +1,12 @@
 {
   "name": "logx-js",
-  "version": "1.0.0",
+  "version": "2.0.0",
   "description": "A nice pretty logger",
   "main": "logx.js",
   "author": "Atlas Cove",
   "license": "LGPL-3.0-or-later",
   "private": false,
   "dependencies": {
-    "ansi-colors": "^4.1.1"
-  },
-  "devDependencies": {
-    "delete": "^1.1.0",
-    "gulp": "^4.0.2"
+    "ampelstatus": "^1.0.0"
   }
 }
