@@ -1,7 +1,8 @@
 # logx
 Simple, pretty, traffic-light logger
 
-logx is an incredably lightweight traffic-light pattern logger, only a single, 7-element object in memory
+logx is an incredably lightweight traffic-light pattern logger, only a single, 7-element object in memory.
+It wraps [ampelstatus](ampelstatus), and is currently classed as it's API.
 
 ## Example
 
